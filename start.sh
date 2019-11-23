@@ -13,6 +13,6 @@ curl https://raw.githubusercontent.com/this-week-in/__init__/master/repositories
     else
         echo "initializing ${dir_to_create}"  
         git_repo=${GIT_TEMPLATE_ROOT}/${d}.git
-        git clone ${git_repo} ${dir_to_create}
+        echo git clone ${git_repo} ${dir_to_create}
     fi
 done
