@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 
 REPOSITORIES_TEXT=https://github.com/this-week-in/__init__/blob/master/repositories.txt
-GIT_TEMPLATE_ROOT=git@github.com:this-week-in/
+GIT_TEMPLATE_ROOT=git@github.com:this-week-in
 start=$( cd `dirname $0` && pwd	 )
 echo "initializing from ${start} "
 curl https://raw.githubusercontent.com/this-week-in/__init__/master/repositories.txt | while read l ; do

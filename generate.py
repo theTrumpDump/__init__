@@ -23,7 +23,7 @@ if __name__ == '__main__' :
 #!/usr/bin/env bash 
 
 REPOSITORIES_TEXT=%s
-GIT_TEMPLATE_ROOT=git@github.com:%s/
+GIT_TEMPLATE_ROOT=git@github.com:%s
 start=$( cd `dirname $0` && pwd	 )
 echo "initializing from ${start} "
 curl https://raw.githubusercontent.com/%s/__init__/master/repositories.txt | while read l ; do
