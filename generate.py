@@ -35,7 +35,7 @@ curl https://raw.githubusercontent.com/%s/__init__/master/repositories.txt | whi
     else
         echo "initializing ${dir_to_create}"  
         git_repo=${GIT_TEMPLATE_ROOT}/${d}.git
-        echo git clone ${git_repo} ${dir_to_create}
+        git clone ${git_repo} ${dir_to_create}
     fi
 done 
         '''  .strip() % (repositories, root, root )
