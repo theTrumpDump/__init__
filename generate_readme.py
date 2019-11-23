@@ -9,6 +9,10 @@ if __name__ == '__main__' :
     ''' % ( root,root,root)
     readme_txt = readme_txt.strip().lstrip ()
     with  open( 'README.md', 'w') as fp :
-        fp.write( readme_txt)
+
+        fp.writelines([os.linesep])
+        fp.writelines(['# Start Here' ])
+        fp.writelines([os.linesep])
+        fp.write(  '```%s```' % readme_txt)
         fp.writelines([os.linesep])
     print ('README generated...')
