@@ -12,3 +12,5 @@ composer-web
 composer-service
 bulletin-service
 composer-web-edge
+twitter-client
+twitter-pinboard-cleanup-job
