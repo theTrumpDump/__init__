@@ -2,15 +2,10 @@ roundup-generator
 cfp-status-function
 cfp-notification-job
 spring-cloud-function-discovery-aws
-ingest-graph-service
 twitter-organizer-job
 twitter-ingest-job
 feed-ingest-job
 pinboard-client
 job-watchdog
-composer-web
-composer-service
-bulletin-service
-composer-web-edge
 twitter-client
 twitter-pinboard-cleanup-job
