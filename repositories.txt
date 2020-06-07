@@ -9,3 +9,6 @@ pinboard-client
 job-watchdog
 twitter-client
 twitter-pinboard-cleanup-job
+bookmark-api
+bookmark-ingest-job
+bookmark-editor-view
